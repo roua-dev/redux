@@ -38,3 +38,4 @@ const taskReducer = (state = initialState, { type, payload }) => {
 
     }
 }
+export default taskReducer;

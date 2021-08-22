@@ -5,4 +5,4 @@ const devtools = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_
 
 const store = createStore(rootReducer, devtools);
 
-export default Store;
+export default store;

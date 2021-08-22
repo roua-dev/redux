@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import { useDispatch } from "react-redux";
-import { editTask } from "../redux/action/action";
+import { editTask } from "../redux/action/Action";
 
 const EditTask = ({ todo }) => {
     const [show, setShow] = useState(false);

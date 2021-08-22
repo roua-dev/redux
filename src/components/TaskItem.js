@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { deleteTodo, completeTodo } from "../redux/action/action";
+import { deleteTask, completeTask } from "../redux/action/Action";
 import EditTask from "./EditTask";
 
 const TaskItem = ({ todo }) => {
